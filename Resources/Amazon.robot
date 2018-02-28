@@ -9,6 +9,7 @@ Resource  Z:/Automation/robot-scripts/amazon/Resources/PO/SignIn.robot
 *** Keywords ***
 #push
 #push
+#pull
 Search product
     LandingPage.Load URL
     LandingPage.Verify page loaded
