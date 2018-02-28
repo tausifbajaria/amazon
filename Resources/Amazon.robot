@@ -7,6 +7,7 @@ Resource  Z:/Automation/robot-scripts/amazon/Resources/PO/Product.robot
 Resource  Z:/Automation/robot-scripts/amazon/Resources/PO/Cart.robot
 Resource  Z:/Automation/robot-scripts/amazon/Resources/PO/SignIn.robot
 *** Keywords ***
+#push
 Search product
     LandingPage.Load URL
     LandingPage.Verify page loaded
@@ -22,5 +23,3 @@ Proceed to checkout
     Cart.Proceed to Checkout
 Verify user navigated to Signin
     SignIn.Verify Page Loaded
-
-
